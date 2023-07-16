@@ -1,6 +1,6 @@
 import { Link, Stack } from "expo-router";
 
-import { Text, View } from "@dg/expo/components/Themed";
+import { Text, View } from "@native/components/Themed";
 
 export default function NotFoundScreen() {
     return (

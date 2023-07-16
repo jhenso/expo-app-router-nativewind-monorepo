@@ -1,8 +1,8 @@
 import { StatusBar } from "expo-status-bar";
 import { Platform } from "react-native";
 
-import EditScreenInfo from "@dg/expo/components/EditScreenInfo";
-import { Text, View } from "@dg/expo/components/Themed";
+import EditScreenInfo from "@native/components/EditScreenInfo";
+import { Text, View } from "@native/components/Themed";
 
 export default function ModalScreen() {
     return (

@@ -2,7 +2,7 @@ import { ExternalLink } from "./ExternalLink";
 import { MonoText } from "./StyledText";
 import { Text, View } from "./Themed";
 
-import Colors from "@dg/expo/constants/Colors";
+import Colors from "@native/constants/Colors";
 
 export default function EditScreenInfo({ path }: { path: string }) {
     return (
