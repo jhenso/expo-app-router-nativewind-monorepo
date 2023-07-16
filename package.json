@@ -1,0 +1,47 @@
+{
+    "name": "doppelganger-monorepo",
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "build": "turbo build",
+        "clean": "turbo clean && rm -rf node_modules",
+        "dev": "turbo run dev",
+        "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\" --ignore-path .gitignore",
+        "native": "cd apps/expo && yarn dev",
+        "start": "turbo run start"
+    },
+    "resolutions": {
+        "esbuild": "0.18.11",
+        "@types/react": "18.2.14",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-refresh": "^0.14.0",
+        "react-native-svg": "13.10.0",
+        "react-native-web": "0.19.6"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.22.6",
+        "dotenv": "^16.0.3",
+        "dotenv-cli": "^6.0.0"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^6.0.0",
+        "@typescript-eslint/parser": "^6.0.0",
+        "eslint": "^8.45.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-config-standard-with-typescript": "^36.0.1",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-n": "^15.7.0",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-react": "^7.32.2",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-react-native": "^4.0.0",
+        "prettier": "^3.0.0",
+        "turbo": "latest",
+        "typescript": "^5.1.6"
+    },
+    "packageManager": "yarn@3.6.1"
+}
