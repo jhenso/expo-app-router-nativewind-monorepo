@@ -1,6 +1,5 @@
-import EditScreenInfo from "@dg/expo/components/EditScreenInfo";
-import { Text, View } from "@dg/expo/components/Themed";
-import { Link } from "expo-router";
+import EditScreenInfo from "@native/components/EditScreenInfo";
+import { Text, View } from "@native/components/Themed";
 
 export default function TabOneScreen() {
     return (

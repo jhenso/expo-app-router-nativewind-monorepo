@@ -9,7 +9,7 @@
     ],
     "compilerOptions": {
         "paths": {
-            "@dg/expo/*": [
+            "@native/*": [
                 "./apps/expo/*"
             ]
         }
